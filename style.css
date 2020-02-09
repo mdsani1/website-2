@@ -1,0 +1,131 @@
+*{margin: 0;padding: 0}
+/*body start*/
+body{
+	background-color: #EEE8AE;
+}
+/*body end*/
+/*wraper start*/
+#wraper{
+	width: 960px;
+	margin: 10px auto;
+}
+/*wraper end*/
+/*header start*/
+#header{
+	background-color: #FAB72A;
+	padding: 15px;
+	border-bottom: 5px solid #6B710E;
+}
+#header h2{
+	color: #FFFFFF;
+	font-family: georgia;
+}
+#header p{
+	color: #788420;
+	font-family: georgia;
+}
+/*header end*/
+/*menu start*/
+#nav{
+	background-color: #FFFFFF;
+	height: 38px;
+	border-bottom: 5px solid #6B710E;
+
+}
+#nav ul{
+list-style-type: none;
+background-color: #FFFFFF;
+z-index: 999;
+}
+#nav ul li{
+float: left;
+border-right: 1px solid #6B710E;
+border-left: 1px solid #008000;
+position: relative;
+}
+#nav ul li:last-child{
+	border:none;
+}
+#nav ul li:first-child{
+	border:none;
+}
+#nav ul li a{
+text-decoration: none;
+color: #6B710E;
+display: block;
+padding: 10px 20px;
+font-family: arial;
+}
+#nav ul li a:hover{
+color: #FFFFFF;
+background-color: #6B710E;
+}
+/*dropdown menu start*/
+#nav ul li ul{
+list-style-type: none;
+padding: 0;
+position: absolute;
+left: -999999px;
+}
+#nav ul li ul li{
+float: none;
+border-right: none;
+border-left: none;
+border-bottom: 1px solid #6B710E;
+border-top: 1px solid #6B710E;
+width: 200px;
+}
+#nav ul li ul li:first-child{
+	border-top: 5px solid #6B710E;
+}
+#nav ul li:hover ul{
+left: 0;
+}
+/*dropdown menu end*/
+/*menu end*/
+/*content wraper start*/
+#content_wraper{
+background-color: #FFFFFF;
+padding: 10px;
+overflow: hidden;
+border-top: 5px solid #6B710E;
+}
+/*content start*/
+#content{
+width: 640px;
+margin-right: 40px;
+float: left;
+}
+#content h2{
+	color: #6B710E;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+/*content end*/
+/*sidebar start*/
+#sidebar{
+width: 250px;
+float: left;
+}
+#sidebar{
+	color: #6B710E;
+}
+#sidebar ul{
+list-style-type: circle;
+}
+#sidebar ul li a{
+	text-decoration: none;
+	color: #282923;
+	padding: 3px;
+	display: block;
+}
+/*sidebar end*/
+/*footer start*/
+#footer{
+	background-color: #42433E;
+	text-align: center;
+	padding: 5px;
+}
+#footer p{
+	color: #FFFFFF;
+}
